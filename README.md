@@ -72,10 +72,10 @@ jupyter notebook Practica2_AA.ipynb
 
 ### Semana 1: 16–22 de abril
 - [x] Inicialización del repositorio y estructura del proyecto
-- [ ] Análisis exploratorio del dataset (EDA): distribuciones, correlaciones, valores atípicos
-- [ ] Preprocesamiento: codificación ordinal de `Color` y `Spectral_Class`
-- [ ] Escalado de features con `StandardScaler`
-- [ ] Reducción de dimensionalidad: PCA a 2 componentes + visualización
+- [x] Análisis exploratorio del dataset (EDA): distribuciones, correlaciones, valores atípicos
+- [x] Preprocesamiento: codificación ordinal de `Color` y `Spectral_Class`
+- [x] Escalado de features con `StandardScaler`
+- [x] Reducción de dimensionalidad: PCA a 2 componentes + visualización
 - **Commit obligatorio antes del 22 de abril**
 
 ### Semana 2: 23–29 de abril
