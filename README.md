@@ -79,18 +79,18 @@ jupyter notebook Practica2_AA.ipynb
 - **Commit obligatorio antes del 22 de abril**
 
 ### Semana 2: 23–29 de abril
-- [ ] Implementación de **K-Means**: método del codo + Silhouette para seleccionar k
-- [ ] Implementación de **Clustering Jerárquico**: prueba de distintas funciones de enlace, análisis de dendrogramas, selección del número de clusters
-- [ ] Visualización y métricas de ambos algoritmos (Silhouette, Davies-Bouldin, Calinski-Harabasz)
-- [ ] Comparativa preliminar K-Means vs. Jerárquico
+- [x] Implementación de **K-Means**: método del codo + Silhouette para seleccionar k (k=6, Silhouette=0.6605)
+- [x] Implementación de **Clustering Jerárquico**: prueba de distintas funciones de enlace (ward, complete, average, single), análisis de dendrogramas, selección del número de clusters
+- [x] Visualización y métricas de ambos algoritmos (Silhouette, Davies-Bouldin, Calinski-Harabasz)
+- [x] Comparativa preliminar K-Means vs. Jerárquico
 - **Commit obligatorio antes del 29 de abril**
 
 ### Semana 3: 30 de abril – 5 de mayo
-- [ ] Implementación de **DBSCAN**: estimación de eps con heurística k-distancia, búsqueda de hiperparámetros, evaluación con DBCV
-- [ ] Comparativa final de los tres algoritmos (tabla de métricas + visualizaciones)
-- [ ] Recomendación del pipeline de clustering con justificación
-- [ ] Comparación de clusters obtenidos con las 6 clases astronómicas reales
-- [ ] Redacción de conclusiones
+- [x] Implementación de **DBSCAN**: estimación de eps con heurística k-distancia, búsqueda de hiperparámetros, evaluación con DBCV (implementación propia en numpy/scipy, sin dependencias externas)
+- [x] Comparativa final de los tres algoritmos (tabla de métricas + visualizaciones lado a lado + matrices de contingencia)
+- [x] Recomendación del pipeline de clustering con justificación → **K-Means k=6** sobre PCA-2D
+- [x] Comparación de clusters obtenidos con las 6 clases astronómicas reales (asignación por mínima distancia + diagrama H-R)
+- [x] Redacción de conclusiones
 - [ ] Revisión final y entrega en Aula Global
 - **Commit + Entrega final antes del 6 de mayo**
 
